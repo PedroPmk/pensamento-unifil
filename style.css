@@ -1,5 +1,7 @@
 html {
-  background-color: rgb(124, 124, 124);
+
+  background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(83,165,236,1) 40%, rgba(94,195,228,1) 67%);
   font-family: "Rubik Mono One", monospace;
   font-weight: 10000;
   font-style: normal;
@@ -45,4 +47,13 @@ footer {
 }
 table {
   border: 4px black;
+}
+.controle{
+   text-align: center;
+
+}
+.controle>i{
+  color:#1a1a1a;
+   font-size: 100px;
+
 }
